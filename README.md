@@ -21,7 +21,8 @@ Dynamic API Phase 1: Build your core, standards compliant Express server
 
 ### Test
 
-- Run the command `npm test` to test and verify the server and the midddlewares are working
+- Run the command `npm test` to test and verify the server and the midddlewares are working.
+- Run the command `npm run lint` for testing lint.
 
 ### Run
 
