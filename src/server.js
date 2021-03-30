@@ -28,7 +28,7 @@ function homeHandler(req, res) {
 }
 
 function personHandler(req, res) {
-  res.json({ name: `${req.query.name}` });
+  res.json({ name: req.query.name });
 }
 
 // Error handlers

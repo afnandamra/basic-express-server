@@ -2,7 +2,8 @@
 
 module.exports = (req, res, next) => {
   if (!req.query.name) {
-    next('validator error');
+    throw new Error('Validator Error');
+    // next('validator error');
   } else {
     console.log('__REQ QUERY__: ', req.query);
     next();
